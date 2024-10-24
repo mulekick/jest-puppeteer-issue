@@ -8,8 +8,7 @@
             "disallowAmbiguousJSXLike": false
         } ],
         [ "@babel/preset-env", {
-            "useBuiltIns": "usage",
-            "corejs": "3.6.5"
+            "useBuiltIns": false
         } ]
     ],
     "plugins": [ "babel-plugin-transform-import-meta" ]
